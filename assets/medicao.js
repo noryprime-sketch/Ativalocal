@@ -50,6 +50,18 @@
     gtag("consent", "update", {
       ad_storage: pub, ad_user_data: pub, ad_personalization: pub, analytics_storage: est
     });
+    if (pub === "denied") apagarCookiesAnuncios();
+  }
+  // Quem recusa depois de ter aceitado não fica com os cookies do Google Ads
+  function apagarCookiesAnuncios() {
+    var d = location.hostname.replace(/^www\./, "");
+    document.cookie.split(";").forEach(function (c) {
+      var n = c.split("=")[0].trim();
+      if (!/^_gcl_/.test(n)) return;
+      ["", "; domain=" + d, "; domain=." + d].forEach(function (dom) {
+        document.cookie = n + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/" + dom;
+      });
+    });
   }
 
   var escolha = ler();
