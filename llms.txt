@@ -41,18 +41,27 @@
 - [Site de alojamento local: o que a lei exige e como receber reservas diretas](https://www.ativalocal.com/blog/site-alojamento-local-obrigacoes-reservas-diretas): O site de um alojamento local tem de indicar o nome ou logótipo e o número de registo do estabelecimento, sem se apresentar como hotel nem usar estrelas. Deve identificar o titular (nome, morada, email, NIF), dar acesso visível ao Livro de Reclamações Eletrónico e ter política de privacidade. Para reservas diretas, a escolha é entre pedido de reserva e motor de reservas, com calendários sincronizados por iCal e uma política de cancelamento clara antes do pagamento.
 
 ## Planos
-Não há tabela de preços fixa: cada proposta é feita à medida, gratuita e com o preço fechado antes de começar. Pagamento único ou mensalidade sem entrada.
-- Essencial (para começar a aparecer): Uma página bem feita para quem precisa de existir no Google e receber contactos. Inclui: Site de uma página, à medida, Pensado primeiro para telemóvel, Botão de WhatsApp e mapa, SEO base e Google Meu Negócio, Domínio .pt e alojamento incluídos, Entrega em 7 dias úteis.
-- Profissional (para ganhar clientes no google): O site completo de um negócio local que quer ganhar clientes pela pesquisa. Inclui: Até 6 páginas, com textos escritos por nós, SEO local em cada página, Google Meu Negócio otimizado, Search Console e estatísticas ligados, Blog para publicar novidades, Domínio .pt e alojamento incluídos, Entrega em 14 dias úteis.
-- Loja Online (para vender online): Uma loja pronta a vender, com os pagamentos que os portugueses usam. Inclui: Catálogo até 100 produtos, MB WAY, Multibanco e cartão, Faturação automática certificada, Portes e zonas de entrega, Gestão de encomendas simples, Formação para gerir sozinho, Entrega em 21 dias úteis.
+Criação do site, pagamento único em duas partes (50% no início e 50% antes da publicação), valores sem IVA. O preço final fica fechado na proposta, gratuita e por escrito.
+- Essencial, desde 350 €: site de uma página, até seis secções, WhatsApp, mapa, formulário, SEO técnico básico e uma ronda de ajustes.
+- Profissional, desde 590 €: até cinco páginas, preparação dos textos, galeria, formulário, Search Console e duas rondas de ajustes.
+- Pro, desde 890 €: até oito páginas, páginas para serviços, pesquisa inicial de palavras-chave, medição de contactos e duas rondas de ajustes.
+- Loja online e sistemas personalizados: sob orçamento.
+- Menu digital com QR code: 149 €, pagamento único, mais 9 €/mês com alojamento e mudanças de preços.
+
+Acompanhamento mensal, opcional e sem fidelização, para sites institucionais feitos pela Ativa Local (valores sem IVA):
+- Base, 29 €/mês: alojamento, SSL, cópias de segurança e manutenção técnica.
+- Cuidado, 59 €/mês: o Base e até 30 minutos por mês de alterações de conteúdo.
+- Evolução, 99 €/mês: o Base e até 60 minutos por mês para alterações, análise e melhorias.
+
+Domínio, e-mail profissional e licenças externas não estão incluídos e aparecem discriminados na proposta.
 
 ## Perguntas frequentes
-- Quanto tempo demora a ter o site pronto? Depende do plano. Um site Essencial fica pronto em cerca de 7 dias úteis, o Profissional em 14 e uma loja online em 21. O prazo começa quando recebemos os conteúdos de que precisamos, como o logótipo e algumas fotografias.
+- Quanto tempo demora a ter o site pronto? O prazo fica escrito na proposta, depois de confirmarmos o que o site leva, a agenda e de recebermos os materiais, como o logótipo e as fotografias.
 - O domínio e o site ficam em meu nome? Sim. O domínio é registado em seu nome e o site é seu. Se um dia quiser mudar de fornecedor, entregamos tudo o que for preciso para levar o site consigo.
 - Tenho de escrever os textos e tirar as fotografias? Não precisa. Fazemos uma conversa curta sobre o seu negócio e escrevemos os textos a partir daí. Se não tiver boas fotografias, usamos imagens de banco escolhidas a dedo e indicamos as que valem a pena tirar mais tarde.
 - Vou aparecer no Google logo a seguir à publicação? O site fica pronto para ser encontrado desde o primeiro dia: registamo-lo no Google Search Console, otimizamos o Google Meu Negócio e tratamos da parte técnica. Subir nas pesquisas leva algumas semanas e depende da concorrência na sua zona, por isso explicamos o que esperar antes de começar.
-- Qual é a diferença entre pagamento único e mensalidade? No pagamento único paga o projeto de uma vez e depois apenas o alojamento e a manutenção. Na mensalidade não paga entrada: o valor mensal inclui o site, alojamento, manutenção e pequenas alterações, com permanência mínima de 12 meses. Na proposta mostramos as duas opções lado a lado.
-- Quanto custa um site? Depende do que o seu negócio precisa: número de páginas, loja online, marcações, idiomas ou integrações. Por isso não temos tabela fixa. Depois de uma conversa curta no WhatsApp enviamos uma proposta por escrito, gratuita e sem compromisso, com o preço fechado antes de começar.
+- Como se paga o site? O acompanhamento mensal é obrigatório? O site paga-se em duas partes: 50% no início e 50% depois de aprovar o site, antes da publicação. O acompanhamento mensal é opcional, começa na publicação e não tem fidelização: Base 29 €, Cuidado 59 € e Evolução 99 € por mês, mais IVA.
+- Quanto custa um site? Depende do plano: o Essencial começa nos 350 €, o Profissional nos 590 € e o Pro nos 890 €, mais IVA, em pagamento único. Lojas online e sistemas são sob orçamento. O preço final fica fechado na proposta, por escrito, antes de começar.
 - Trabalham com negócios fora de Lisboa? Trabalhamos com negócios de todo o país, do Minho ao Algarve e nas ilhas. Quase tudo se resolve por WhatsApp e videochamada, e o SEO local é feito para a sua cidade e as zonas onde trabalha.
 - Também fazem sistemas e programas à medida? Sim. Fazemos sistemas de marcações, áreas de cliente, pedidos de orçamento automáticos e pequenos programas de gestão. Como cada caso é diferente, damos o orçamento depois de uma conversa.
 - Passam fatura com NIF? Sim, todos os trabalhos são faturados com o NIF da sua empresa ou o seu NIF pessoal. Os valores das propostas são apresentados sem IVA.

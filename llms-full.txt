@@ -41,18 +41,27 @@
 - [Site de alojamento local: o que a lei exige e como receber reservas diretas](https://www.ativalocal.com/blog/site-alojamento-local-obrigacoes-reservas-diretas): O site de um alojamento local tem de indicar o nome ou logótipo e o número de registo do estabelecimento, sem se apresentar como hotel nem usar estrelas. Deve identificar o titular (nome, morada, email, NIF), dar acesso visível ao Livro de Reclamações Eletrónico e ter política de privacidade. Para reservas diretas, a escolha é entre pedido de reserva e motor de reservas, com calendários sincronizados por iCal e uma política de cancelamento clara antes do pagamento.
 
 ## Planos
-Não há tabela de preços fixa: cada proposta é feita à medida, gratuita e com o preço fechado antes de começar. Pagamento único ou mensalidade sem entrada.
-- Essencial (para começar a aparecer): Uma página bem feita para quem precisa de existir no Google e receber contactos. Inclui: Site de uma página, à medida, Pensado primeiro para telemóvel, Botão de WhatsApp e mapa, SEO base e Google Meu Negócio, Domínio .pt e alojamento incluídos, Entrega em 7 dias úteis.
-- Profissional (para ganhar clientes no google): O site completo de um negócio local que quer ganhar clientes pela pesquisa. Inclui: Até 6 páginas, com textos escritos por nós, SEO local em cada página, Google Meu Negócio otimizado, Search Console e estatísticas ligados, Blog para publicar novidades, Domínio .pt e alojamento incluídos, Entrega em 14 dias úteis.
-- Loja Online (para vender online): Uma loja pronta a vender, com os pagamentos que os portugueses usam. Inclui: Catálogo até 100 produtos, MB WAY, Multibanco e cartão, Faturação automática certificada, Portes e zonas de entrega, Gestão de encomendas simples, Formação para gerir sozinho, Entrega em 21 dias úteis.
+Criação do site, pagamento único em duas partes (50% no início e 50% antes da publicação), valores sem IVA. O preço final fica fechado na proposta, gratuita e por escrito.
+- Essencial, desde 350 €: site de uma página, até seis secções, WhatsApp, mapa, formulário, SEO técnico básico e uma ronda de ajustes.
+- Profissional, desde 590 €: até cinco páginas, preparação dos textos, galeria, formulário, Search Console e duas rondas de ajustes.
+- Pro, desde 890 €: até oito páginas, páginas para serviços, pesquisa inicial de palavras-chave, medição de contactos e duas rondas de ajustes.
+- Loja online e sistemas personalizados: sob orçamento.
+- Menu digital com QR code: 149 €, pagamento único, mais 9 €/mês com alojamento e mudanças de preços.
+
+Acompanhamento mensal, opcional e sem fidelização, para sites institucionais feitos pela Ativa Local (valores sem IVA):
+- Base, 29 €/mês: alojamento, SSL, cópias de segurança e manutenção técnica.
+- Cuidado, 59 €/mês: o Base e até 30 minutos por mês de alterações de conteúdo.
+- Evolução, 99 €/mês: o Base e até 60 minutos por mês para alterações, análise e melhorias.
+
+Domínio, e-mail profissional e licenças externas não estão incluídos e aparecem discriminados na proposta.
 
 ## Perguntas frequentes
-- Quanto tempo demora a ter o site pronto? Depende do plano. Um site Essencial fica pronto em cerca de 7 dias úteis, o Profissional em 14 e uma loja online em 21. O prazo começa quando recebemos os conteúdos de que precisamos, como o logótipo e algumas fotografias.
+- Quanto tempo demora a ter o site pronto? O prazo fica escrito na proposta, depois de confirmarmos o que o site leva, a agenda e de recebermos os materiais, como o logótipo e as fotografias.
 - O domínio e o site ficam em meu nome? Sim. O domínio é registado em seu nome e o site é seu. Se um dia quiser mudar de fornecedor, entregamos tudo o que for preciso para levar o site consigo.
 - Tenho de escrever os textos e tirar as fotografias? Não precisa. Fazemos uma conversa curta sobre o seu negócio e escrevemos os textos a partir daí. Se não tiver boas fotografias, usamos imagens de banco escolhidas a dedo e indicamos as que valem a pena tirar mais tarde.
 - Vou aparecer no Google logo a seguir à publicação? O site fica pronto para ser encontrado desde o primeiro dia: registamo-lo no Google Search Console, otimizamos o Google Meu Negócio e tratamos da parte técnica. Subir nas pesquisas leva algumas semanas e depende da concorrência na sua zona, por isso explicamos o que esperar antes de começar.
-- Qual é a diferença entre pagamento único e mensalidade? No pagamento único paga o projeto de uma vez e depois apenas o alojamento e a manutenção. Na mensalidade não paga entrada: o valor mensal inclui o site, alojamento, manutenção e pequenas alterações, com permanência mínima de 12 meses. Na proposta mostramos as duas opções lado a lado.
-- Quanto custa um site? Depende do que o seu negócio precisa: número de páginas, loja online, marcações, idiomas ou integrações. Por isso não temos tabela fixa. Depois de uma conversa curta no WhatsApp enviamos uma proposta por escrito, gratuita e sem compromisso, com o preço fechado antes de começar.
+- Como se paga o site? O acompanhamento mensal é obrigatório? O site paga-se em duas partes: 50% no início e 50% depois de aprovar o site, antes da publicação. O acompanhamento mensal é opcional, começa na publicação e não tem fidelização: Base 29 €, Cuidado 59 € e Evolução 99 € por mês, mais IVA.
+- Quanto custa um site? Depende do plano: o Essencial começa nos 350 €, o Profissional nos 590 € e o Pro nos 890 €, mais IVA, em pagamento único. Lojas online e sistemas são sob orçamento. O preço final fica fechado na proposta, por escrito, antes de começar.
 - Trabalham com negócios fora de Lisboa? Trabalhamos com negócios de todo o país, do Minho ao Algarve e nas ilhas. Quase tudo se resolve por WhatsApp e videochamada, e o SEO local é feito para a sua cidade e as zonas onde trabalha.
 - Também fazem sistemas e programas à medida? Sim. Fazemos sistemas de marcações, áreas de cliente, pedidos de orçamento automáticos e pequenos programas de gestão. Como cada caso é diferente, damos o orçamento depois de uma conversa.
 - Passam fatura com NIF? Sim, todos os trabalhos são faturados com o NIF da sua empresa ou o seu NIF pessoal. Os valores das propostas são apresentados sem IVA.
@@ -84,7 +93,7 @@ Em Portugal, quem compra online espera ver MB WAY e Multibanco no checkout. Uma 
 - Gestão simples no telemóvel: Acompanha encomendas, altera preços e adiciona produtos a partir do telemóvel. Mostramos como se faz numa sessão de formação incluída.
 
 ## Plano recomendado
-Plano Loja Online: preço por proposta à medida, fechado antes de começar. Inclui a loja com até 100 produtos, pagamentos por MB WAY, Multibanco e cartão, faturação certificada, portes e páginas legais. O preço depende do número de produtos e das integrações de que precisa, e pode ser pago de uma vez ou em mensalidade sem entrada. Depois de uma conversa curta no WhatsApp, enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas.
+Plano Loja Online: preço fechado na proposta, antes de começar. Inclui a loja com até 100 produtos, pagamentos por MB WAY, Multibanco e cartão, faturação certificada, portes e páginas legais. O preço depende do número de produtos e das integrações de que precisa, e paga-se em duas partes: 50% no início e 50% antes da publicação. Depois de uma conversa curta no WhatsApp, enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas.
 
 ## Incluído
 - Até 100 produtos com fotografias e variantes
@@ -98,7 +107,7 @@ Plano Loja Online: preço por proposta à medida, fechado antes de começar. Inc
 
 ## Perguntas frequentes
 ### Quanto custa criar uma loja online em Portugal?
-Depende sobretudo do número de produtos, dos métodos de pagamento e das integrações extra, como ligação a stock ou transportadoras. Na Ativa Local fazemos uma conversa curta no WhatsApp e enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas. Pedir a proposta é gratuito e o preço fica fechado antes de começarmos, em pagamento único ou mensalidade sem entrada.
+Depende sobretudo do número de produtos, dos métodos de pagamento e das integrações extra, como ligação a stock ou transportadoras. Na Ativa Local fazemos uma conversa curta no WhatsApp e enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas. Pedir a proposta é gratuito e o preço fica fechado antes de começarmos, em duas partes (50% no início e 50% antes da publicação).
 ### Quanto tempo demora a loja a ficar pronta?
 Depende sobretudo de ter fotografias e informação dos produtos prontas. Com esse material entregue, uma loja de até 100 produtos fica normalmente pronta em poucas semanas. Na primeira conversa damos um prazo concreto para o seu caso e combinamos o que precisamos de receber de si.
 ### Que métodos de pagamento posso aceitar?
@@ -129,7 +138,7 @@ O SEO local junta três coisas: uma ficha no Google completa e atual, um site qu
 - Search Console configurada: Ligamos o site à Google Search Console para ver por que pesquisas aparece, que páginas são visitadas e se há erros a corrigir.
 
 ## Plano recomendado
-Plano Profissional: preço por proposta à medida, fechado antes de começar. O plano Profissional inclui site até 6 páginas, SEO local, Perfil da Empresa no Google e blog. O preço depende do número de páginas e do trabalho que o seu caso pede, e pode ser pago de uma vez ou em mensalidade sem entrada. Depois de uma conversa curta no WhatsApp, enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas.
+Plano Profissional: preço fechado na proposta, antes de começar. O plano Profissional inclui site até 6 páginas, SEO local, Perfil da Empresa no Google e blog. O preço depende do número de páginas e do trabalho que o seu caso pede, e paga-se em duas partes: 50% no início e 50% antes da publicação. Depois de uma conversa curta no WhatsApp, enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas.
 
 ## Incluído
 - Site até 6 páginas otimizado para a sua zona
@@ -173,7 +182,7 @@ Um sistema de marcações à medida segue a forma como já trabalha: duração d
 - Dados dos clientes protegidos: Os dados recolhidos são apenas os necessários, guardados de forma segura e tratados de acordo com o RGPD, com política de privacidade incluída.
 
 ## Plano recomendado
-Plano À medida: preço por proposta à medida, fechado antes de começar. Cada negócio marca de forma diferente: número de profissionais, duração dos serviços, sinal, lembretes ou ligação a outros sistemas. Por isso, depois de uma conversa curta no WhatsApp, enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas. Pode pagar de uma vez ou em mensalidade sem entrada.
+Plano À medida: preço fechado na proposta, antes de começar. Cada negócio marca de forma diferente: número de profissionais, duração dos serviços, sinal, lembretes ou ligação a outros sistemas. Por isso, depois de uma conversa curta no WhatsApp, enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas. Paga-se em duas partes: 50% no início e 50% antes da publicação.
 
 ## Incluído
 - Agenda online ligada ao seu site
@@ -186,7 +195,7 @@ Plano À medida: preço por proposta à medida, fechado antes de começar. Cada 
 
 ## Perguntas frequentes
 ### Quanto custa um sistema de marcações online?
-Depende do que o sistema tem de fazer: número de profissionais, tipos de serviço, pagamento de sinal, lembretes ou ligação a outros programas. Na Ativa Local fazemos uma conversa curta, por WhatsApp ou chamada, e enviamos uma proposta gratuita e sem compromisso, com preço fechado antes de começarmos. Pode pagar de uma vez ou em mensalidade sem entrada.
+Depende do que o sistema tem de fazer: número de profissionais, tipos de serviço, pagamento de sinal, lembretes ou ligação a outros programas. Na Ativa Local fazemos uma conversa curta, por WhatsApp ou chamada, e enviamos uma proposta gratuita e sem compromisso, com preço fechado antes de começarmos. Paga-se em duas partes: 50% no início e 50% antes da publicação.
 ### Qual é a diferença para uma plataforma de reservas?
 Uma plataforma de reservas é igual para todos os negócios e cobra mensalidade ou comissão, muitas vezes mostrando concorrentes ao lado do seu perfil. Um sistema à medida fica no seu site, segue as suas regras e os dados dos clientes ficam consigo. Não há comissão por cada marcação feita.
 ### Os clientes recebem lembretes da marcação?
@@ -217,7 +226,7 @@ Um site próprio junta essa informação num sítio que o restaurante controla. 
 - Perfil no Google ligado ao site: Configuramos o Perfil da Empresa no Google com menu, fotografias e ligação para reservar, para o restaurante aparecer completo no mapa.
 
 ## Plano recomendado
-Plano Profissional: preço por proposta à medida, fechado antes de começar. Cobre o site completo do restaurante: menu com preços e alergénios, pedidos de reserva e de grupos, galeria, SEO local e Perfil da Empresa no Google. O preço depende do número de páginas e de funcionalidades como reservas com sistema próprio, encomendas com pagamento online ou o menu noutras línguas. Depois de uma conversa curta no WhatsApp enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas, com pagamento único ou mensalidade sem entrada.
+Plano Profissional: preço fechado na proposta, antes de começar. Cobre o site completo do restaurante: menu com preços e alergénios, pedidos de reserva e de grupos, galeria, SEO local e Perfil da Empresa no Google. O preço depende do número de páginas e de funcionalidades como reservas com sistema próprio, encomendas com pagamento online ou o menu noutras línguas. Depois de uma conversa curta no WhatsApp enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas, pago em duas partes (50% no início e 50% antes da publicação).
 
 ## Incluído
 - Menu online em texto, com preços e alergénios
@@ -233,7 +242,7 @@ Plano Profissional: preço por proposta à medida, fechado antes de começar. Co
 ### Preciso de um site se já tenho Instagram e Facebook?
 As redes sociais servem bem para mostrar o dia a dia, mas não aparecem bem nas pesquisas do Google e tornam difícil encontrar o menu, o horário ou a forma de reservar. O site junta essa informação numa página sua, ligada ao Perfil da Empresa no Google. As redes continuam a funcionar e passam a apontar para o site.
 ### Consigo mudar o menu e os preços quando a carta muda?
-Sim. Pode enviar as alterações por WhatsApp e tratamos delas; na mensalidade, as pequenas alterações estão incluídas na manutenção. Se preferir fazê-las sozinho, deixamos o menu num formato que se edita sem conhecimentos técnicos. Como o menu está em texto e não num PDF, mudar um preço demora pouco.
+Sim. Pode enviar as alterações por WhatsApp e tratamos delas; nos planos de acompanhamento Cuidado e Evolução, as alterações estão incluídas até aos minutos de cada plano. Se preferir fazê-las sozinho, deixamos o menu num formato que se edita sem conhecimentos técnicos. Como o menu está em texto e não num PDF, mudar um preço demora pouco.
 ### Sou obrigado a indicar os alergénios?
 Sim. O Regulamento (UE) 1169/2011, aplicado em Portugal pelo Decreto-Lei n.º 26/2016, obriga a disponibilizar ao cliente a informação sobre as substâncias que causam alergias ou intolerâncias, também nos pratos servidos em restaurantes. No site, essa informação aparece em cada prato, o que ajuda sobretudo quem encomenda take-away sem falar com a equipa.
 ### Posso receber encomendas sem pagar comissões às plataformas de entrega?
@@ -262,7 +271,7 @@ Um site bem organizado dá às especialidades principais uma página própria, o
 - Formulários sem dados clínicos: O formulário pede só nome, contacto e preferência de horário. Os dados de saúde são sensíveis no RGPD e ficam para a consulta, fora do site.
 
 ## Plano recomendado
-Plano Profissional: preço por proposta à medida, fechado antes de começar. Cobre o site da clínica com as especialidades principais em página própria, a equipa com cédula da OMD, acordos e seguros, pedido de marcação e os dados de identificação pedidos pela ERS. O preço depende do número de páginas e de integrações como a ligação a uma agenda online com marcação em tempo real, conforme o software da clínica. Depois de uma conversa curta no WhatsApp enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas, com pagamento único ou mensalidade sem entrada.
+Plano Profissional: preço fechado na proposta, antes de começar. Cobre o site da clínica com as especialidades principais em página própria, a equipa com cédula da OMD, acordos e seguros, pedido de marcação e os dados de identificação pedidos pela ERS. O preço depende do número de páginas e de integrações como a ligação a uma agenda online com marcação em tempo real, conforme o software da clínica. Depois de uma conversa curta no WhatsApp enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas, pago em duas partes (50% no início e 50% antes da publicação).
 
 ## Incluído
 - Até 6 páginas, com as especialidades principais em página própria
@@ -307,7 +316,7 @@ Um site próprio dá essa clareza. Explica o que a oficina faz, com que marcas t
 - Avaliações e marcas: Ligação às avaliações do Google e lista das marcas com que trabalha ou em que tem mais experiência. Mostra o que sabe fazer sem frases feitas.
 
 ## Plano recomendado
-Plano Profissional: preço por proposta à medida, fechado antes de começar. Cobre o site da oficina com serviços explicados, preços indicativos, pedido de orçamento por WhatsApp com a matrícula, marcação de revisão, SEO local e Perfil da Empresa no Google. O preço do site depende do número de páginas e de funcionalidades como a marcação online com agenda própria. Depois de uma conversa curta no WhatsApp enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas, com pagamento único ou mensalidade sem entrada.
+Plano Profissional: preço fechado na proposta, antes de começar. Cobre o site da oficina com serviços explicados, preços indicativos, pedido de orçamento por WhatsApp com a matrícula, marcação de revisão, SEO local e Perfil da Empresa no Google. O preço do site depende do número de páginas e de funcionalidades como a marcação online com agenda própria. Depois de uma conversa curta no WhatsApp enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas, pago em duas partes (50% no início e 50% antes da publicação).
 
 ## Incluído
 - Até 6 páginas: início, serviços, preços, inspeção, sobre e contactos
@@ -352,7 +361,7 @@ A Ativa Local prepara o site a partir do que já existe: o Instagram, as avalia�
 - Vales oferta: Uma página para pedir vales oferta com valor ou serviço à escolha, pensada para aniversários, Natal e Dia da Mãe. O pedido chega por WhatsApp e o salão trata do resto.
 
 ## Plano recomendado
-Plano Profissional: preço por proposta à medida, fechado antes de começar. Cobre o site do salão ou da barbearia com serviços e preços, equipa, galeria de trabalhos, avaliações do Google e pedido de marcação por WhatsApp. Se quiser agenda online com lembretes automáticos, isso entra na proposta. O preço depende do número de páginas e das funcionalidades e é dado numa proposta fechada depois de uma conversa.
+Plano Profissional: preço fechado na proposta, antes de começar. Cobre o site do salão ou da barbearia com serviços e preços, equipa, galeria de trabalhos, avaliações do Google e pedido de marcação por WhatsApp. Se quiser agenda online com lembretes automáticos, isso entra na proposta. O preço depende do número de páginas e das funcionalidades e é dado numa proposta fechada depois de uma conversa.
 
 ## Incluído
 - Até 6 páginas, pensadas para telemóvel
@@ -366,7 +375,7 @@ Plano Profissional: preço por proposta à medida, fechado antes de começar. Co
 
 ## Perguntas frequentes
 ### Quanto custa um site para um cabeleireiro ou barbearia?
-Depende do âmbito: número de páginas, idiomas, se quer marcações online com agenda e lembretes e se é preciso ligar a alguma plataforma que o salão já usa. Para saber o valor, basta uma conversa curta no WhatsApp: a Ativa Local envia depois uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas. Pode escolher pagamento único ou mensalidade sem entrada, e o preço fica fechado antes de começarmos.
+Depende do âmbito: número de páginas, idiomas, se quer marcações online com agenda e lembretes e se é preciso ligar a alguma plataforma que o salão já usa. Para saber o valor, basta uma conversa curta no WhatsApp: a Ativa Local envia depois uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas. O preço fica fechado antes de começarmos e paga-se em duas partes: 50% no início e 50% antes da publicação.
 ### Os clientes conseguem marcar hora pelo site?
 Sim. Em todos os planos o cliente escolhe o serviço e envia o pedido de marcação por WhatsApp ou formulário, a qualquer hora. Se o salão quiser uma agenda online com horários livres, confirmação automática e lembretes, essa integração é orçamentada à parte depois de percebermos como a equipa trabalha.
 ### Posso continuar a usar a aplicação de marcações que já tenho?
@@ -397,7 +406,7 @@ O outro problema conhecido é o tempo perdido em visitas para orçamentos que n�
 - Como decorre uma obra: Uma explicação simples das fases, desde a visita e o orçamento até à entrega, com prazos indicativos por tipo de trabalho. Tira dúvidas antes da primeira chamada.
 
 ## Plano recomendado
-Plano Profissional: preço por proposta à medida, fechado antes de começar. Cobre um site com várias páginas para separar os principais tipos de obra, portefólio de antes e depois, alvará visível e pedido de orçamento com fotografias. Inclui SEO local e a revisão do Google Meu Negócio. O preço depende do número de páginas e das funcionalidades e é dado numa proposta fechada depois de uma conversa.
+Plano Profissional: preço fechado na proposta, antes de começar. Cobre um site com várias páginas para separar os principais tipos de obra, portefólio de antes e depois, alvará visível e pedido de orçamento com fotografias. Inclui SEO local e a revisão do Google Meu Negócio. O preço depende do número de páginas e das funcionalidades e é dado numa proposta fechada depois de uma conversa.
 
 ## Incluído
 - Até 6 páginas, pensadas para telemóvel
@@ -411,7 +420,7 @@ Plano Profissional: preço por proposta à medida, fechado antes de começar. Co
 
 ## Perguntas frequentes
 ### Quanto custa um site para uma empresa de construção?
-Depende do âmbito: número de páginas, quantidade de obras no portefólio, idiomas e funcionalidades como o pedido de orçamento com envio de fotografias ou integrações com outras ferramentas. Para saber o valor, basta uma conversa curta no WhatsApp: a Ativa Local envia depois uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas. Pode escolher pagamento único ou mensalidade sem entrada, e o preço fica fechado antes de começarmos.
+Depende do âmbito: número de páginas, quantidade de obras no portefólio, idiomas e funcionalidades como o pedido de orçamento com envio de fotografias ou integrações com outras ferramentas. Para saber o valor, basta uma conversa curta no WhatsApp: a Ativa Local envia depois uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas. O preço fica fechado antes de começarmos e paga-se em duas partes: 50% no início e 50% antes da publicação.
 ### Devo mostrar o alvará no site?
 É recomendável. Em Portugal, a atividade de construção depende de alvará ou certificado emitido pelo IMPIC, ao abrigo da Lei n.º 41/2015, e muitos clientes já sabem que o devem pedir. Mostrar o número no site, com indicação de que pode ser confirmado na consulta pública do IMPIC, transmite confiança antes do primeiro contacto.
 ### Os clientes podem enviar fotografias pelo pedido de orçamento?
@@ -442,7 +451,7 @@ Há também uma obrigação legal. O artigo 17.º do Decreto-Lei n.º 128/2014 e
 - Fotografias e comodidades: Galeria organizada por divisão, lista de comodidades como ar condicionado, wifi, estacionamento ou berço, e capacidade de cada quarto.
 
 ## Plano recomendado
-Plano Profissional: preço por proposta à medida, fechado antes de começar. Cobre o site do alojamento com fotografias, mapa, regras da casa, número RNAL visível e pedido de reserva por WhatsApp ou formulário. As línguas e um eventual motor de reservas com pagamento online e calendário sincronizado com Booking e Airbnb entram na proposta. O preço é dado numa proposta fechada depois de uma conversa.
+Plano Profissional: preço fechado na proposta, antes de começar. Cobre o site do alojamento com fotografias, mapa, regras da casa, número RNAL visível e pedido de reserva por WhatsApp ou formulário. As línguas e um eventual motor de reservas com pagamento online e calendário sincronizado com Booking e Airbnb entram na proposta. O preço é dado numa proposta fechada depois de uma conversa.
 
 ## Incluído
 - Até 6 páginas, pensadas para telemóvel
@@ -456,7 +465,7 @@ Plano Profissional: preço por proposta à medida, fechado antes de começar. Co
 
 ## Perguntas frequentes
 ### Quanto custa um site para alojamento local?
-Depende do âmbito: número de páginas e de unidades, quantas línguas quer e se precisa de motor de reservas com pagamento online e calendário sincronizado. Para saber o valor, basta uma conversa curta no WhatsApp: a Ativa Local envia depois uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas. Pode escolher pagamento único ou mensalidade sem entrada, e o preço fica fechado antes de começarmos.
+Depende do âmbito: número de páginas e de unidades, quantas línguas quer e se precisa de motor de reservas com pagamento online e calendário sincronizado. Para saber o valor, basta uma conversa curta no WhatsApp: a Ativa Local envia depois uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas. O preço fica fechado antes de começarmos e paga-se em duas partes: 50% no início e 50% antes da publicação.
 ### É obrigatório mostrar o número de registo do alojamento local no site?
 Sim. O artigo 17.º do Decreto-Lei n.º 128/2014 determina que a publicidade e a documentação comercial de um alojamento local indiquem o nome ou logótipo e o número de registo atribuído no RNAL. O site próprio é publicidade, por isso o número deve estar visível, em todas as línguas.
 ### Os hóspedes podem pagar a reserva diretamente no site?
@@ -733,7 +742,7 @@ A maior parte das surpresas não vem do preço da construção. Vem do que se pa
 ## Pagamento único ou mensalidade: o que muda
 Há duas formas comuns de pagar um site. No pagamento único, paga a construção de uma vez e, depois, paga à parte o domínio, o alojamento e a manutenção que decidir contratar. Na mensalidade, o valor da construção é distribuído por prestações mensais que costumam incluir também alojamento, manutenção e pequenas alterações durante um período combinado.
 Nenhuma das formas é melhor em todas as situações. O pagamento único faz sentido para quem tem a verba disponível e prefere não ter um encargo fixo. A mensalidade ajuda quem não quer fazer um investimento inicial grande e prefere ter alguém responsável pelo site todos os meses. Em qualquer dos casos, o que importa é saber o que acontece se quiser terminar: durante quanto tempo fica comprometido, se o site e o domínio passam para o seu nome e se leva consigo os textos e as fotografias.
-Na Ativa Local trabalhamos das duas formas, com pagamento único ou com mensalidade sem entrada, e a proposta fica sempre fechada antes de começarmos, para que saiba desde o primeiro dia o que vai pagar.
+Na Ativa Local a criação do site é em pagamento único, dividido em duas partes, e o acompanhamento mensal é opcional e sem fidelização. A proposta fica sempre fechada antes de começarmos, para que saiba desde o primeiro dia o que vai pagar.
 
 ## Como comparar duas propostas sem olhar só para o total
 Duas propostas com valores muito diferentes raramente descrevem o mesmo trabalho. Antes de olhar para o total, ponha-as lado a lado e procure a resposta a estas perguntas em cada uma:
