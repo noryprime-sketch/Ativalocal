@@ -5,12 +5,12 @@
 (function () {
   "use strict";
 
-  var AW_ID = ""; // por preencher, ex.: "AW-123456789"
+  var AW_ID = "AW-18556597347";
   var CONVERSOES = {
-    whatsapp: "",    // principal: clique num link wa.me
+    whatsapp: "o-o6CKThorIdEOPovJBF",    // principal: clique num link wa.me
     formulario: "",  // envio de um formulário de contacto (o site ainda não tem nenhum)
-    telefone: "",    // clique num link tel:
-    verificador: ""  // uso do verificador de site (/ferramentas/verificador-site)
+    telefone: "1wlLCKfhorIdEOPovJBF",    // clique num link tel:
+    verificador: "ZDfNCKrhorIdEOPovJBF"  // uso do verificador de site (/ferramentas/verificador-site)
   };
 
   var CHAVE = "al-consent";
