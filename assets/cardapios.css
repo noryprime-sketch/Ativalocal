@@ -96,6 +96,10 @@
 .ap-logo.ic-t{background:#ffffff1f url(/assets/img/projetos/logos/torqueone-icone.webp) center/66% no-repeat}
 .ap-topo b{display:block;font-weight:600;font-size:1.12em;line-height:1.15}
 .ap-topo small{display:block;color:#ffffffd9;font-size:.86em}
+.ap-grava{display:none;position:relative;flex:1;min-height:0;background:#fff}
+.ap-grava img,.ap-grava video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top}
+.ap-real .ap-grava{display:block}
+.ap-real .ap-tit,.ap-real .ap-nums,.ap-real .ap-sem,.ap-real .ap-lista,.ap-real .ap-bt,.ap-real .ap-nav{display:none}
 .ap-tit{flex:none;padding:.95em .71em .5em;color:var(--i);font-size:1.55em;font-weight:600;letter-spacing:-.02em;line-height:1.1}
 .ap-nums{flex:none;display:grid;grid-template-columns:1fr 1fr;gap:.5em;padding:0 1.1em .7em}
 .ap-nums div{padding:.6em .8em;border-radius:.9em;background:#fff}

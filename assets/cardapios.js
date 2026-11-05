@@ -128,7 +128,7 @@
 
   /* Apps à medida: o mesmo telemóvel para vários negócios */
   var APPS={
-    oficina:{cor:"#FF5733",topo:"#0A1C2D",ic:1,nome:"TorqueOne",sub:"Feita por nós · dados de exemplo",tit:"Folhas de obra",nums:[["3","Em curso"],["2","Prontos"]],linhas:[["Renault Clio","Revisão","Em curso"],["Seat Ibiza","Travões","Falta peça"],["Peugeot 208","Diagnóstico","Pronto"],["Fiat 500","Pneus","Por aprovar"]],bt:"Nova folha de obra"},
+    oficina:{real:1,cor:"#FF5733",topo:"#0A1C2D",ic:1,nome:"TorqueOne",sub:"Feita por nós · dados de exemplo",tit:"Folhas de obra",nums:[["3","Em curso"],["2","Prontos"]],linhas:[["Renault Clio","Revisão","Em curso"],["Seat Ibiza","Travões","Falta peça"],["Peugeot 208","Diagnóstico","Pronto"],["Fiat 500","Pneus","Por aprovar"]],bt:"Nova folha de obra"},
     clinica:{cor:"#0b7f76",l:"C",nome:"Clínica Exemplo",tit:"Consultas de hoje",nums:[["8","Marcadas"],["2","Por confirmar"]],linhas:[["09:30 · Ana R.","Consulta","Confirmada"],["11:00 · João M.","Limpeza","Confirmada"],["15:00 · Rita S.","Avaliação","Por confirmar"],["16:30 · Pedro L.","Consulta","Confirmada"]],bt:"Nova marcação"},
     restaurante:{cor:"#b4532a",l:"R",nome:"Restaurante Exemplo",tit:"Pedidos",nums:[["5","A preparar"],["3","Para levar"]],linhas:[["Mesa 4","2 pratos","A preparar"],["Mesa 7","4 pratos","Servido"],["Para levar","Rui S.","Pronto"],["Mesa 2","3 pratos","A preparar"]],bt:"Novo pedido"},
     barbearia:{cor:"#14161f",l:"B",nome:"Barbearia Exemplo",tit:"Agenda de hoje",nums:[["12","Marcações"],["3","Barbeiros"]],linhas:[["10:00 · Tiago","Corte e barba","Confirmada"],["10:45 · Miguel","Corte","Confirmada"],["11:30 · André","Barba","Por confirmar"],["12:15 · Rui","Corte","Confirmada"]],bt:"Nova marcação"},
@@ -140,7 +140,16 @@
   if(ap){
     var botoes=lista(ap,".ap-tipos button"),ecra=ap.querySelector(".ap-ecra"),corpo=ap.querySelector(".ap-corpo");
     var campo=function(n){return ap.querySelector("[data-ap="+n+"]")},preso=false,vendo=false,atual=0,relogio=0;
+    /* Gravação da app no exemplo Oficina: só toca com o exemplo escolhido e a secção à vista */
+    var gravacao=ap.querySelector(".ap-grava video"),posta=false;
+    var dados=function(i){return APPS[botoes[i].getAttribute("data-app")]};
+    var toca=function(){
+      if(!posta)return;
+      if(vendo&&!document.hidden&&dados(atual).real){var p=gravacao.play();if(p&&p.catch)p.catch(function(){})}
+      else gravacao.pause();
+    };
     var escreve=function(d,i){
+      ecra.classList.toggle("ap-real",!!d.real);
       ecra.style.setProperty("--cor",d.cor);ecra.style.setProperty("--topo",d.topo||d.cor);
       var lg=campo("logo");lg.textContent=d.ic?"":d.l;lg.classList.toggle("ic-t",!!d.ic);
       campo("nome").textContent=d.nome;campo("sub").textContent=d.sub||"Exemplo ilustrativo";campo("tit").textContent=d.tit;campo("bt").textContent=d.bt;
@@ -150,15 +159,30 @@
     };
     var mostra=function(i){
       atual=i;marcar(botoes,botoes[i],"aria-pressed");
-      var d=APPS[botoes[i].getAttribute("data-app")];
+      var d=dados(i);
+      if(posta&&d.real)gravacao.currentTime=0;
+      toca();
       if(reduz){escreve(d,i);return}
       corpo.classList.add("troca");
       setTimeout(function(){escreve(d,i);corpo.classList.remove("troca")},200);
     };
-    botoes.forEach(function(b,i){b.addEventListener("click",function(){preso=true;clearInterval(relogio);mostra(i)})});
-    if(!reduz)aoVer(ap,function(v){
-      vendo=v;clearInterval(relogio);
-      if(v&&!preso)relogio=setInterval(function(){if(vendo&&!document.hidden)mostra((atual+1)%botoes.length)},3400);
-    });
+    /* Passa ao exemplo seguinte: na Oficina depois de uma volta inteira ao vídeo, nos outros ao fim de 3,4 s */
+    var seguinte=function(){
+      clearTimeout(relogio);
+      if(!vendo||preso)return;
+      var vai=dados(atual).real&&posta&&!gravacao.paused&&gravacao.duration;
+      relogio=setTimeout(function(){if(vendo&&!document.hidden)mostra((atual+1)%botoes.length);seguinte()},vai?(gravacao.duration-gravacao.currentTime)*1000:3400);
+    };
+    botoes.forEach(function(b,i){b.addEventListener("click",function(){preso=true;clearTimeout(relogio);mostra(i)})});
+    if(!reduz){
+      aoVer(ap,function(v){vendo=v;toca();seguinte()});
+      document.addEventListener("visibilitychange",function(){toca();seguinte()});
+      if(!(navigator.connection&&navigator.connection.saveData))aoVer(ap,function(v){
+        if(!v||posta)return;
+        posta=true;
+        ["mp4","webm"].forEach(function(t){var s=document.createElement("source");s.src=gravacao.getAttribute("data-"+t);s.type="video/"+t;gravacao.appendChild(s)});
+        gravacao.preload="auto";gravacao.addEventListener("loadedmetadata",seguinte);gravacao.load();toca();
+      },"400px");
+    }
   }
 })();
