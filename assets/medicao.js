@@ -89,6 +89,22 @@
   }
   window.alConverter = converter;
 
+  // Quem chega de um anúncio do Google (gclid no endereço; gbraid e wbraid no iPhone) diz que veio do anúncio.
+  // Os botões do /menu-digital e do /criacao-de-sites trazem no HTML o texto de quem chega por outro caminho.
+  function textoDeAnuncio(t) {
+    if (t === "Olá! Queria saber mais sobre o menu digital.") return "Olá! Vi o vosso anúncio do menu digital e queria saber mais.";
+    if (t === "Olá! Queria um orçamento para um site.") return "Olá! Vi o vosso anúncio sobre a criação de sites e queria um orçamento.";
+    var m = /^Olá! Queria um orçamento (para o plano \S+\.)$/.exec(t);
+    return m ? "Olá! Vi o vosso anúncio sobre a criação de sites e queria um orçamento " + m[1] : null;
+  }
+  function trocarTextosWhatsApp() {
+    if (!/[?&](gclid|gbraid|wbraid)=/.test(location.search)) return;
+    document.querySelectorAll('a[href^="https://wa.me/"]').forEach(function (a) {
+      var u = new URL(a.href), novo = textoDeAnuncio(u.searchParams.get("text"));
+      if (novo) a.href = u.origin + u.pathname + "?text=" + encodeURIComponent(novo);
+    });
+  }
+
   document.addEventListener("click", function (e) {
     var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
     if (!a) return;
@@ -182,6 +198,7 @@
   window.alCookies = abrir;
 
   function iniciar() {
+    trocarTextosWhatsApp();
     var st = document.createElement("style");
     st.textContent = CSS;
     document.head.appendChild(st);
