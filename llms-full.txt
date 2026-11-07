@@ -18,7 +18,7 @@
 - [Sistemas de marcações](https://www.ativalocal.com/servicos/sistemas-de-marcacoes): A Ativa Local cria sistemas de marcações e reservas online à medida para pequenos negócios em Portugal, como cabeleireiros, barbearias, clínicas, oficinas e restaurantes. O cliente escolhe o serviço, o profissional e o horário livre, e recebe confirmação e lembrete. O sistema funciona no site do negócio, com as suas regras de agenda e sem comissão por marcação. Como cada sistema é diferente, enviamos uma proposta fechada à medida depois de uma conversa curta.
 
 ## Páginas por setor
-- [Restaurantes](https://www.ativalocal.com/setores/restaurantes): A Ativa Local cria sites para restaurantes, cafés e pastelarias em Portugal. O site inclui o menu em texto legível no telemóvel, com preços e alergénios, horário, mapa, fotografias e botão de reserva ou contacto por WhatsApp. Pode incluir encomendas de take-away diretas, sem comissão por pedido. O plano Profissional inclui até cinco páginas, e o preço do site é dado numa proposta fechada à medida, por escrito, depois de uma conversa curta no WhatsApp.
+- [Restaurantes](https://www.ativalocal.com/setores/restaurantes): A Ativa Local cria sites para restaurantes, cafés e pastelarias em Portugal. O site inclui o menu em texto legível no telemóvel, com preços e alergénios, horário, mapa, fotografias e botões de WhatsApp e de chamada. O plano Profissional inclui até cinco páginas, e o preço do site é dado numa proposta fechada à medida, por escrito, depois de uma conversa curta no WhatsApp.
 - [Clínicas dentárias](https://www.ativalocal.com/setores/clinicas-dentarias): A Ativa Local cria sites para clínicas dentárias em Portugal. O site inclui páginas próprias para as principais especialidades, como implantes, ortodontia ou branqueamento, a equipa com número de cédula da Ordem dos Médicos Dentistas, acordos e seguros, horário, mapa e pedido de marcação. Os textos seguem as regras da publicidade em saúde e os formulários não pedem dados clínicos. O preço depende das especialidades a destacar e da ligação à agenda da clínica, e a Ativa Local envia uma proposta fechada à medida, por escrito e sem compromisso, depois de uma conversa curta.
 - [Oficinas](https://www.ativalocal.com/setores/oficinas): A Ativa Local cria sites para oficinas automóveis e mecânicos em Portugal. O site inclui a lista de serviços com preços indicativos, as marcas com que a oficina trabalha, marcação de revisão, pedido de orçamento por WhatsApp com a matrícula, horário, mapa e ligação às avaliações do Google. O plano Profissional tem até cinco páginas, e o preço do site é dado numa proposta fechada à medida, por escrito, depois de uma conversa curta no WhatsApp.
 - [Cabeleireiros e barbearias](https://www.ativalocal.com/setores/cabeleireiros-e-barbearias): A Ativa Local cria sites para cabeleireiros, barbearias e salões de beleza em Portugal. O site mostra a lista de serviços com duração e preço, a equipa, uma galeria de trabalhos ligada ao Instagram, as avaliações do Google, o horário e a localização no mapa. O plano Profissional inclui até cinco páginas, e a marcação online integrada pode entrar na mesma proposta. O preço é feito à medida de cada salão, numa proposta fechada enviada depois de uma conversa curta no WhatsApp.
@@ -208,44 +208,41 @@ Sim. Cada profissional tem a sua agenda, os seus serviços e os seus horários. 
 ### Ainda posso aceitar marcações por telefone?
 Pode, e deve se os seus clientes estiverem habituados. As marcações feitas por telefone ou ao balcão são introduzidas no mesmo painel, para que a agenda online saiba que essa hora já está ocupada. Assim evita marcações duplicadas e tem tudo num só sítio, seja qual for a forma como o cliente marcou.
 
-# Site para restaurante com menu, reservas e encomendas
+# Site para restaurante com menu, alergénios e contacto direto
 URL: https://www.ativalocal.com/setores/restaurantes
 
-A Ativa Local cria sites para restaurantes, cafés e pastelarias em Portugal. O site inclui o menu em texto legível no telemóvel, com preços e alergénios, horário, mapa, fotografias e botão de reserva ou contacto por WhatsApp. Pode incluir encomendas de take-away diretas, sem comissão por pedido. O plano Profissional inclui até cinco páginas, e o preço do site é dado numa proposta fechada à medida, por escrito, depois de uma conversa curta no WhatsApp.
+A Ativa Local cria sites para restaurantes, cafés e pastelarias em Portugal. O site inclui o menu em texto legível no telemóvel, com preços e alergénios, horário, mapa, fotografias e botões de WhatsApp e de chamada. O plano Profissional inclui até cinco páginas, e o preço do site é dado numa proposta fechada à medida, por escrito, depois de uma conversa curta no WhatsApp.
 
 ## Como os clientes escolhem onde comer
 Quem procura onde comer raramente sai do telemóvel. Pesquisa «restaurante perto de mim» ou o nome da zona, abre o mapa do Google, vê fotografias, lê avaliações e procura o menu. Se o menu não aparece, ou aparece num PDF que obriga a ampliar o ecrã, é fácil passar ao resultado seguinte sem chegar a ligar.
 Os turistas fazem o mesmo, muitas vezes em inglês, e decidem pelo que conseguem perceber em poucos segundos: tipo de cozinha, preço médio, horário e se é preciso reservar. Os clientes habituais querem saber outras coisas, como se o restaurante abre hoje, qual é o prato do dia ou se aceita grupos ao fim de semana.
-Um site próprio junta essa informação num sítio que o restaurante controla. O menu muda quando a carta muda, as reservas chegam sem intermediários e o take-away pode ser encomendado diretamente, sem a comissão das plataformas de entrega. As redes sociais continuam úteis, mas não substituem uma página sua que aparece no Google.
+Um site próprio junta essa informação num sítio que o restaurante controla. O menu muda quando a carta muda, e quem quer falar consigo liga ou escreve diretamente para o restaurante. As redes sociais continuam úteis, mas não substituem uma página sua que aparece no Google.
 
 ## O que o site do seu restaurante tem de ter
 - Menu em texto, não em PDF: A carta aparece como página normal, legível no telemóvel e lida pelo Google. Mudar um prato ou um preço não obriga a refazer nenhum ficheiro.
 - Alergénios prato a prato: A informação sobre alergénios é obrigatória também na restauração, pelo Regulamento (UE) 1169/2011. O site mostra-a em cada prato, de forma simples de ler.
-- Reservas e grupos: Reserva por WhatsApp, telefone ou formulário, ou ligação ao sistema de reservas que já usa. Jantares de grupo e eventos têm um pedido próprio.
-- Take-away sem comissões: Encomendas diretas para levantar ou entregar, pagas no local ou online. O valor fica no restaurante, sem percentagem cobrada por cada pedido.
+- Contacto direto: Botões de WhatsApp e de chamada, para quem quer marcar mesa ou perguntar por um grupo falar logo com o restaurante.
+- Fotografias da casa: Galeria com os pratos e o espaço, feita com as fotografias que nos envia. Se faltarem imagens, dizemos quais fazem falta.
 - Horário, mapa e acessos: Morada com mapa, horário sempre certo, dia de descanso, onde estacionar e se o espaço tem acesso para cadeiras de rodas.
-- Perfil no Google ligado ao site: Configuramos o Perfil da Empresa no Google com menu, fotografias e ligação para reservar, para o restaurante aparecer completo no mapa. É um serviço à parte, que pode entrar na proposta.
+- Perfil no Google ligado ao site: Configuramos o Perfil da Empresa no Google com menu, fotografias e ligação para o site, para o restaurante aparecer completo no mapa. É um serviço à parte, que pode entrar na proposta.
 
 ## Plano recomendado
-Plano Profissional: preço fechado na proposta, antes de começar. Cobre o site completo do restaurante: menu com preços e alergénios, pedidos de reserva e de grupos e galeria. O SEO local e o Perfil da Empresa no Google são serviços à parte e podem entrar na proposta. O preço depende do número de páginas e de funcionalidades como reservas com sistema próprio, encomendas com pagamento online ou o menu noutras línguas. Depois de uma conversa curta no WhatsApp enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas, pago em duas partes (50% no início e 50% antes da publicação).
+Plano Profissional: preço fechado na proposta, antes de começar. Cobre o site completo do restaurante: menu com preços e alergénios, contacto direto e galeria. O SEO local e o Perfil da Empresa no Google são serviços à parte e podem entrar na proposta. O preço depende do número de páginas e das línguas do menu. Se tiver outra necessidade, diga-nos o que precisa e vemos isso na proposta. Depois de uma conversa curta no WhatsApp enviamos uma proposta fechada, por escrito e sem compromisso, normalmente em 24 horas, pago em duas partes (50% no início e 50% antes da publicação).
 
 ## Incluído
 - Menu online em texto, com preços e alergénios
-- Até cinco páginas: início, menu, reservas e grupos, sobre e contactos
+- Até cinco páginas: início, menu, galeria, sobre e contactos
 - Botão de WhatsApp e chamada direta
-- Pedido de reserva e de jantares de grupo
 - Horário, mapa e indicações de acesso
 - Galeria de fotografias dos pratos e do espaço
 
 ## Perguntas frequentes
 ### Preciso de um site se já tenho Instagram e Facebook?
-As redes sociais servem bem para mostrar o dia a dia, mas não aparecem bem nas pesquisas do Google e tornam difícil encontrar o menu, o horário ou a forma de reservar. O site junta essa informação numa página sua, ligada ao Perfil da Empresa no Google. As redes continuam a funcionar e passam a apontar para o site.
+As redes sociais servem bem para mostrar o dia a dia, mas não aparecem bem nas pesquisas do Google e tornam difícil encontrar o menu, o horário ou o contacto. O site junta essa informação numa página sua, ligada ao Perfil da Empresa no Google. As redes continuam a funcionar e passam a apontar para o site.
 ### Consigo mudar o menu e os preços quando a carta muda?
 Sim. Pode enviar as alterações por WhatsApp e tratamos delas; nos planos de acompanhamento Cuidado e Evolução, as alterações estão incluídas até aos minutos de cada plano. Se preferir fazê-las sozinho, deixamos o menu num formato que se edita sem conhecimentos técnicos. Como o menu está em texto e não num PDF, mudar um preço demora pouco.
 ### Sou obrigado a indicar os alergénios?
-Sim. O Regulamento (UE) 1169/2011, aplicado em Portugal pelo Decreto-Lei n.º 26/2016, obriga a disponibilizar ao cliente a informação sobre as substâncias que causam alergias ou intolerâncias, também nos pratos servidos em restaurantes. No site, essa informação aparece em cada prato, o que ajuda sobretudo quem encomenda take-away sem falar com a equipa.
-### Posso receber encomendas sem pagar comissões às plataformas de entrega?
-Sim. O site pode ter encomendas próprias para levantar no restaurante ou para entrega, com pagamento no local ou online. Não cobramos comissão por pedido; com pagamento online paga apenas a taxa do serviço de pagamentos. Esta parte é orçamentada à parte, porque depende de como faz as entregas e de quantos pedidos espera.
+Sim. O Regulamento (UE) 1169/2011, aplicado em Portugal pelo Decreto-Lei n.º 26/2016, obriga a disponibilizar ao cliente a informação sobre as substâncias que causam alergias ou intolerâncias, também nos pratos servidos em restaurantes. No site, essa informação aparece em cada prato, o que ajuda sobretudo quem escolhe o restaurante antes de sair de casa.
 ### O site pode ter o menu em inglês para turistas?
 Pode. O menu e as páginas principais podem ter versão em inglês ou noutras línguas, com um botão para mudar de língua. Em zonas turísticas faz diferença, porque quem está de visita escolhe pelo que consegue ler. As línguas adicionais entram no orçamento conforme o número de páginas a traduzir.
 ### O que preciso de preparar antes de começar?
