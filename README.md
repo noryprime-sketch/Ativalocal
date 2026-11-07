@@ -19,7 +19,7 @@ Se o `git push` for recusado, é porque o outro publicou primeiro. É assim que 
 
 ## Nunca
 
-- **`vercel deploy` ou `vercel --prod`.** Publicam a pasta de quem corre o comando por cima de tudo o que está no ar. Foi assim que o site perdeu páginas a 06-11-2026.
+- **`vercel deploy` ou `vercel --prod`.** Publicam a pasta de quem corre o comando por cima de tudo o que está no ar. Foi assim que o site perdeu páginas a 06-11-2026. Agora a Vercel recusa-os de propósito, e o deploy falha com a mensagem `BLOQUEADO`.
 - **`git push --force`.** Apaga o trabalho do outro.
 - **Editar uma cópia antiga ou descarregada.** Trabalha só numa pasta clonada daqui.
 - **Pôr segredos aqui.** O repositório é público: nada de chaves, palavras-passe ou dados de clientes.
@@ -45,4 +45,5 @@ O autor do commit tem de ser `noryprime@gmail.com`. Com outro e-mail a Vercel n�
   cat assets/site.css assets/site.js assets/verificador.js | shasum | cut -c1-10
   ```
 
+- **Trava na Vercel:** o Build Command do projeto só deixa passar deploys vindos do GitHub e copia o site para `public/`, sem `api/` nem `vercel.json`. Por isso não pode existir uma pasta `public` na raiz.
 - **Fins de linha:** quase todas as páginas usam CRLF; `criacao-de-sites.html` e `menu-digital.html` usam LF. Mantém o que cada ficheiro já tem.
