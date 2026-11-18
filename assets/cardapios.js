@@ -135,6 +135,22 @@
     obras:{cor:"#a15c00",l:"O",nome:"Obras Exemplo",tit:"Obras em curso",nums:[["4","Em curso"],["2","Orçamentos"]],linhas:[["Cozinha","Remodelação","60 %"],["Casa de banho","Remodelação","30 %"],["Fachada","Pintura","Orçamento"],["Telhado","Reparação","Por começar"]],bt:"Novo orçamento"},
     loja:{cor:"#6d3bd1",l:"L",nome:"Loja Exemplo",tit:"Encomendas",nums:[["6","Para enviar"],["2","Para recolher"]],linhas:[["N.º 1048","2 artigos","Paga"],["N.º 1049","1 artigo","Enviada"],["N.º 1050","3 artigos","Entregue"],["N.º 1051","1 artigo","Paga"]],bt:"Nova encomenda"}
   };
+  /* Textos dos exemplos nas páginas em inglês e francês (o português fica como está acima) */
+  var TRAD={
+    en:{"Feita por nós · dados de exemplo":"Built by us · sample data","Exemplo ilustrativo":"Illustrative example","Folhas de obra":"Job sheets","Em curso":"In progress","Prontos":"Ready","Revisão":"Service","Travões":"Brakes","Falta peça":"Awaiting part","Diagnóstico":"Diagnostics","Pronto":"Ready","Pneus":"Tyres","Por aprovar":"Awaiting approval","Nova folha de obra":"New job sheet",
+      "Clínica Exemplo":"Example Clinic","Consultas de hoje":"Today's appointments","Marcadas":"Booked","Por confirmar":"To confirm","Consulta":"Appointment","Confirmada":"Confirmed","Limpeza":"Cleaning","Avaliação":"Assessment","Nova marcação":"New booking",
+      "Restaurante Exemplo":"Example Restaurant","Pedidos":"Orders","A preparar":"Preparing","Para levar":"Takeaway","Mesa 4":"Table 4","Mesa 7":"Table 7","Mesa 2":"Table 2","2 pratos":"2 dishes","4 pratos":"4 dishes","3 pratos":"3 dishes","Servido":"Served","Novo pedido":"New order",
+      "Barbearia Exemplo":"Example Barbershop","Agenda de hoje":"Today's diary","Marcações":"Bookings","Barbeiros":"Barbers","Corte e barba":"Cut and beard","Corte":"Cut","Barba":"Beard",
+      "Obras Exemplo":"Example Builders","Obras em curso":"Projects in progress","Orçamentos":"Quotes","Cozinha":"Kitchen","Remodelação":"Renovation","Casa de banho":"Bathroom","Fachada":"Façade","Pintura":"Painting","Orçamento":"Quote","Telhado":"Roof","Reparação":"Repair","Por começar":"Not started","Novo orçamento":"New quote",
+      "Loja Exemplo":"Example Shop","Encomendas":"Orders","Para enviar":"To ship","Para recolher":"To collect","2 artigos":"2 items","1 artigo":"1 item","3 artigos":"3 items","Paga":"Paid","Enviada":"Shipped","Entregue":"Delivered","Nova encomenda":"New order"},
+    fr:{"Feita por nós · dados de exemplo":"Réalisée par nous · données d'exemple","Exemplo ilustrativo":"Exemple illustratif","Folhas de obra":"Fiches de travaux","Em curso":"En cours","Prontos":"Prêts","Revisão":"Révision","Travões":"Freins","Falta peça":"Pièce manquante","Diagnóstico":"Diagnostic","Pronto":"Prêt","Pneus":"Pneus","Por aprovar":"À valider","Nova folha de obra":"Nouvelle fiche de travaux",
+      "Clínica Exemplo":"Clinique Exemple","Consultas de hoje":"Rendez-vous du jour","Marcadas":"Réservés","Por confirmar":"À confirmer","Consulta":"Consultation","Confirmada":"Confirmé","Limpeza":"Détartrage","Avaliação":"Bilan","Nova marcação":"Nouveau rendez-vous",
+      "Restaurante Exemplo":"Restaurant Exemple","Pedidos":"Commandes","A preparar":"En préparation","Para levar":"À emporter","Mesa 4":"Table 4","Mesa 7":"Table 7","Mesa 2":"Table 2","2 pratos":"2 plats","4 pratos":"4 plats","3 pratos":"3 plats","Servido":"Servi","Novo pedido":"Nouvelle commande",
+      "Barbearia Exemplo":"Barbier Exemple","Agenda de hoje":"Agenda du jour","Marcações":"Rendez-vous","Barbeiros":"Barbiers","Corte e barba":"Coupe et barbe","Corte":"Coupe","Barba":"Barbe",
+      "Obras Exemplo":"Travaux Exemple","Obras em curso":"Chantiers en cours","Orçamentos":"Devis","Cozinha":"Cuisine","Remodelação":"Rénovation","Casa de banho":"Salle de bains","Fachada":"Façade","Pintura":"Peinture","Orçamento":"Devis","Telhado":"Toiture","Reparação":"Réparation","Por começar":"À démarrer","Novo orçamento":"Nouveau devis",
+      "Loja Exemplo":"Boutique Exemple","Encomendas":"Commandes","Para enviar":"À expédier","Para recolher":"À retirer","2 artigos":"2 articles","1 artigo":"1 article","3 artigos":"3 articles","Paga":"Payée","Enviada":"Expédiée","Entregue":"Livrée","Nova encomenda":"Nouvelle commande"}
+  }[(document.documentElement.lang||"pt").slice(0,2)]||{};
+  var tr=function(s){return TRAD[s]||s};
   var SEMANA=[42,64,50,86,60,100,34];
   var ap=document.querySelector(".ap-palco");
   if(ap){
@@ -152,10 +168,10 @@
       ecra.classList.toggle("ap-real",!!d.real);
       ecra.style.setProperty("--cor",d.cor);ecra.style.setProperty("--topo",d.topo||d.cor);
       var lg=campo("logo");lg.textContent=d.ic?"":d.l;lg.classList.toggle("ic-t",!!d.ic);
-      campo("nome").textContent=d.nome;campo("sub").textContent=d.sub||"Exemplo ilustrativo";campo("tit").textContent=d.tit;campo("bt").textContent=d.bt;
-      lista(campo("nums"),"div").forEach(function(c,i){c.children[0].textContent=d.nums[i][0];c.children[1].textContent=d.nums[i][1]});
+      campo("nome").textContent=tr(d.nome);campo("sub").textContent=tr(d.sub||"Exemplo ilustrativo");campo("tit").textContent=tr(d.tit);campo("bt").textContent=tr(d.bt);
+      lista(campo("nums"),"div").forEach(function(c,i){c.children[0].textContent=d.nums[i][0];c.children[1].textContent=tr(d.nums[i][1])});
       lista(campo("sem"),"i").forEach(function(c,k){c.style.height=SEMANA[(k+i*2)%7]+"%"});
-      lista(campo("lista"),"li").forEach(function(c,i){c.children[0].textContent=d.linhas[i][0];c.children[1].textContent=d.linhas[i][1];c.children[2].textContent=d.linhas[i][2]});
+      lista(campo("lista"),"li").forEach(function(c,i){c.children[0].textContent=tr(d.linhas[i][0]);c.children[1].textContent=tr(d.linhas[i][1]);c.children[2].textContent=tr(d.linhas[i][2])});
     };
     var mostra=function(i){
       atual=i;marcar(botoes,botoes[i],"aria-pressed");

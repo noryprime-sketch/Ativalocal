@@ -124,7 +124,21 @@
     }
   }, true);
 
-  // 4. Aviso de cookies
+  // 4. Aviso de cookies (na língua da página: pt, en ou fr)
+  var LINGUA = (document.documentElement.lang || "pt").slice(0, 2);
+  var TEXTOS = {
+    pt: { titulo: "Cookies neste site", texto: "Usamos cookies do Google só se aceitar, para medir os contactos que chegam pelos anúncios e melhorar o site. Pode recusar sem perder nada.", saber: "Saber mais", politica: "/politica-de-privacidade",
+          est: "Estatísticas", estTxt: "Contar visitas e cliques, sem o identificar.", pub: "Publicidade", pubTxt: "Saber que contactos vieram de anúncios do Google.",
+          nao: "Recusar", sim: "Aceitar", cfg: "Escolher", guardar: "Guardar escolha", definicoes: "Definições de cookies" },
+    en: { titulo: "Cookies on this site", texto: "We only use Google cookies if you accept, to measure the enquiries that come from our ads and improve the site. You can decline and lose nothing.", saber: "Learn more", politica: "/en/privacy-policy",
+          est: "Statistics", estTxt: "Count visits and clicks, without identifying you.", pub: "Advertising", pubTxt: "Know which enquiries came from Google ads.",
+          nao: "Decline", sim: "Accept", cfg: "Choose", guardar: "Save choice", definicoes: "Cookie settings" },
+    fr: { titulo: "Cookies sur ce site", texto: "Nous n'utilisons les cookies de Google que si vous acceptez, pour mesurer les contacts venus de nos annonces et améliorer le site. Vous pouvez refuser sans rien perdre.", saber: "En savoir plus", politica: "/fr/politique-de-confidentialite",
+          est: "Statistiques", estTxt: "Compter les visites et les clics, sans vous identifier.", pub: "Publicité", pubTxt: "Savoir quels contacts sont venus des annonces Google.",
+          nao: "Refuser", sim: "Accepter", cfg: "Choisir", guardar: "Enregistrer mon choix", definicoes: "Paramètres des cookies" }
+  };
+  var T = TEXTOS[LINGUA] || TEXTOS.pt;
+
   var CSS =
     ".ck{position:fixed;left:1rem;right:1rem;bottom:1rem;z-index:60;max-width:560px;margin:0 auto;background:#14161f;color:#ffffffcc;border-radius:1rem;padding:1.25rem 1.25rem 1.1rem;box-shadow:0 20px 50px -20px #000a;font:500 .9rem/1.5 var(--body,Arial,sans-serif)}" +
     ".ck[hidden]{display:none}" +
@@ -156,16 +170,16 @@
     caixa.setAttribute("aria-labelledby", "ck-t");
     caixa.hidden = true;
     caixa.innerHTML =
-      '<h2 id="ck-t">Cookies neste site</h2>' +
-      '<p>Usamos cookies do Google só se aceitar, para medir os contactos que chegam pelos anúncios e melhorar o site. Pode recusar sem perder nada. <a href="/politica-de-privacidade#cookies">Saber mais</a></p>' +
+      '<h2 id="ck-t">' + T.titulo + '</h2>' +
+      '<p>' + T.texto + ' <a href="' + T.politica + '#cookies">' + T.saber + '</a></p>' +
       '<div class="ck-op" hidden>' +
-        '<label><input type="checkbox" id="ck-est"><span><b>Estatísticas</b><br>Contar visitas e cliques, sem o identificar.</span></label>' +
-        '<label><input type="checkbox" id="ck-pub"><span><b>Publicidade</b><br>Saber que contactos vieram de anúncios do Google.</span></label>' +
+        '<label><input type="checkbox" id="ck-est"><span><b>' + T.est + '</b><br>' + T.estTxt + '</span></label>' +
+        '<label><input type="checkbox" id="ck-pub"><span><b>' + T.pub + '</b><br>' + T.pubTxt + '</span></label>' +
       '</div>' +
       '<div class="ck-bts">' +
-        '<button type="button" class="ck-nao">Recusar</button>' +
-        '<button type="button" class="ck-sim">Aceitar</button>' +
-        '<button type="button" class="ck-cfg">Escolher</button>' +
+        '<button type="button" class="ck-nao">' + T.nao + '</button>' +
+        '<button type="button" class="ck-sim">' + T.sim + '</button>' +
+        '<button type="button" class="ck-cfg">' + T.cfg + '</button>' +
       '</div>';
     document.body.appendChild(caixa);
 
@@ -174,7 +188,7 @@
     caixa.querySelector(".ck-sim").addEventListener("click", function () { fechar(guardar(true, true)); });
     caixa.querySelector(".ck-nao").addEventListener("click", function () { fechar(guardar(false, false)); });
     cfg.addEventListener("click", function () {
-      if (op.hidden) { op.hidden = false; cfg.textContent = "Guardar escolha"; est.focus(); }
+      if (op.hidden) { op.hidden = false; cfg.textContent = T.guardar; est.focus(); }
       else fechar(guardar(pub.checked, est.checked));
     });
     return caixa;
@@ -192,7 +206,7 @@
     aplicar(v);
     caixa.hidden = true;
     caixa.querySelector(".ck-op").hidden = true;
-    caixa.querySelector(".ck-cfg").textContent = "Escolher";
+    caixa.querySelector(".ck-cfg").textContent = T.cfg;
     document.body.classList.remove("ck-aberto");
   }
   window.alCookies = abrir;
@@ -203,10 +217,10 @@
     st.textContent = CSS;
     document.head.appendChild(st);
     // ligação «Definições de cookies» no rodapé, ao lado da política de privacidade
-    var pol = document.querySelector('footer a[href="/politica-de-privacidade"]');
+    var pol = document.querySelector('footer a[href="' + T.politica + '"]');
     if (pol && pol.parentNode && pol.parentNode.tagName === "LI") {
       var li = document.createElement("li");
-      li.innerHTML = '<button type="button" class="ck-link">Definições de cookies</button>';
+      li.innerHTML = '<button type="button" class="ck-link">' + T.definicoes + '</button>';
       pol.parentNode.parentNode.insertBefore(li, pol.parentNode.nextSibling);
       li.firstChild.addEventListener("click", abrir);
     }

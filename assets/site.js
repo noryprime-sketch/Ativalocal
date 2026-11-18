@@ -4,7 +4,8 @@
     btn.addEventListener("click",function(){
       var open=nav.classList.toggle("open");
       btn.setAttribute("aria-expanded",open);
-      btn.setAttribute("aria-label",open?"Fechar menu":"Abrir menu");
+      var l=(document.documentElement.lang||"pt").slice(0,2),m={pt:["Fechar menu","Abrir menu"],en:["Close menu","Open menu"],fr:["Fermer le menu","Ouvrir le menu"]}[l]||["Fechar menu","Abrir menu"];
+      btn.setAttribute("aria-label",open?m[0]:m[1]);
     });
     nav.querySelectorAll(".nav-links a").forEach(function(a){a.addEventListener("click",function(){nav.classList.remove("open");btn.setAttribute("aria-expanded","false")})});
   }
