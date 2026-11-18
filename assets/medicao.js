@@ -157,7 +157,11 @@
     ".ck-link{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:none;cursor:pointer;text-align:left}" +
     ".ck-link:hover{text-decoration:underline}" +
     "@media (max-width:520px){.ck{left:.5rem;right:.5rem;bottom:.5rem;padding:1rem}.ck-bts button{flex-basis:100%}}" +
-    "body.ck-aberto .wa-float{bottom:calc(var(--ck-h,0px) + 1.5rem)}";
+    "body.ck-aberto .wa-float{bottom:calc(var(--ck-h,0px) + 1.5rem)}" +
+    // No telemóvel, o WhatsApp flutuante por cima do aviso caía no título e no texto do topo.
+    // Com o aviso aberto, encaixa no canto de cima do próprio aviso, ao lado do título, que lhe guarda o lugar.
+    "@media (max-width:520px){.ck h2{min-height:3rem;padding-right:3.75rem;display:flex;align-items:center}" +
+    "body.ck-aberto .wa-float{z-index:61;right:1.25rem;bottom:calc(var(--ck-h,0px) - .25rem - 52px)}}";
 
   var caixa;
   function montar() {
@@ -185,6 +189,10 @@
 
     var op = caixa.querySelector(".ck-op"), cfg = caixa.querySelector(".ck-cfg");
     var est = caixa.querySelector("#ck-est"), pub = caixa.querySelector("#ck-pub");
+    // a altura do aviso muda com «Escolher» e ao rodar o telemóvel: o WhatsApp acompanha-a
+    if (window.ResizeObserver) new ResizeObserver(function () {
+      if (!caixa.hidden) document.documentElement.style.setProperty("--ck-h", caixa.offsetHeight + "px");
+    }).observe(caixa);
     caixa.querySelector(".ck-sim").addEventListener("click", function () { fechar(guardar(true, true)); });
     caixa.querySelector(".ck-nao").addEventListener("click", function () { fechar(guardar(false, false)); });
     cfg.addEventListener("click", function () {
